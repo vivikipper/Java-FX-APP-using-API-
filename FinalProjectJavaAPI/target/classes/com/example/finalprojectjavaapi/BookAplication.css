@@ -1,0 +1,49 @@
+.root {
+    -fx-background-color: #555555;
+}
+
+.label {
+    -fx-font-size: 24;
+    -fx-font-family: "Cabin";
+    -fx-text-fill: #ffffff;
+    -fx-padding: 12px;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #FFFF00, #FFD700);
+    -fx-background-radius: 5px;
+    -fx-background-insets: 0, 1 1 1 1;
+    -fx-padding: 7 22 7 22;
+    -fx-text-fill: black;
+    -fx-font-size: 16px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6), 5, 0.0 , 0 , 1 );
+    -fx-font-weight: bold;
+}
+#bookName{
+ -fx-font-size: 18;
+ -fx-font-weight: bold;
+}
+.listView {
+    -fx-background-color: #f2f2f2;
+}
+
+.list-cell {
+    -fx-padding: 5px;
+}
+
+.list-cell:selected {
+    -fx-background-color: #FFFF00;
+    -fx-text-fill: black;
+}
+
+.list-cell:hover {
+    -fx-background-color: #FFFF00;
+    -fx-text-fill: black;
+}
+#clickToseeDetails{
+ -fx-font-size: 15;
+}
+.transparent-text-area {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+}
